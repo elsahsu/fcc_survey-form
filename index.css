@@ -1,0 +1,72 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+body {
+  background-color: rgb(113,197,232);
+}
+
+.light-background {
+  background-color: rgb(113,197,232);
+  border-radius: 10px;
+}
+.dark-background {
+  float: left;
+  width:50%;
+  background-color: rgb(107,164,184);
+  border-radius: 10px;
+  padding: 100px 50px;
+  text-align: left;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 22px;
+  color: rgb(37,74,93);
+}
+.column {
+  float: left;
+  width: 25%
+}
+h1 {
+  color: rgb(0,86,126);
+  font-family: Lobster, 'Open Sans';
+  font-size: 90px;
+  text-align: center;
+}
+#description {
+  color: gray;
+  font-family: Verdana;
+  font-size: 25px;
+  font-style: bold;
+  text-align: center;
+}
+input[type=text], input[type=email], input[type=number], select {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px rounded;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+[type='checkbox'] {
+  margin: 10px 0px 10px;
+}
+textarea {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px rounded;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-family: Verdana;
+  font-weight: bold;
+}
+button[type=submit] {
+  background-color: rgb(0,86,126);
+  color: white;
+  width: 90%;
+  padding: 12px 20px;
+  margin: 30px 0 30px;
+  border-radius: 10px;
+}
